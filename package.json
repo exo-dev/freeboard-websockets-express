@@ -4,7 +4,8 @@
   "description": "A project that unifies http://freeboard.io/ with websockets support and served from an express server",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node post-install.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/exo-sa/freeboard-websockets-express/issues"
   },
-  "homepage": "https://github.com/exo-sa/freeboard-websockets-express"
+  "homepage": "https://github.com/exo-sa/freeboard-websockets-express",
+  "dependencies": {
+    "freeboard": "git://github.com/freeboard/freeboard"
+  }
 }
