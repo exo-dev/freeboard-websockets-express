@@ -1,6 +1,6 @@
 {
   "name": "freeboard-websockets-express",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A project that unifies http://freeboard.io/ with websockets support and served from an express server",
   "main": "app.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/exo-sa/freeboard-websockets-express.git"
+    "url": "https://github.com/exo-dev/freeboard-websockets-express.git"
   },
   "keywords": [
     "freeboard",
@@ -22,9 +22,9 @@
   "author": "Sergio Orbe <sergioo@exo.com.ar>",
   "license": "Apache License Version 2.0",
   "bugs": {
-    "url": "https://github.com/exo-sa/freeboard-websockets-express/issues"
+    "url": "https://github.com/exo-dev/freeboard-websockets-express/issues"
   },
-  "homepage": "https://github.com/exo-sa/freeboard-websockets-express",
+  "homepage": "https://github.com/exo-dev/freeboard-websockets-express",
   "dependencies": {
     "express": "^4.13.1",
     "freeboard": "git://github.com/freeboard/freeboard"
